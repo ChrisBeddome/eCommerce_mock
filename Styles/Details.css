@@ -1,0 +1,59 @@
+﻿body {
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0;
+  
+}
+
+
+.wrap {
+    margin-top: 11.5%;
+}
+
+#Table1 {
+    background-color: #EEE;
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+}
+
+
+#BtnPay {
+  display: block;
+  margin: auto;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: 'Fjalla One', sans-serif;
+  color: #F5F5F5;
+  font-size: 22px;
+  background: #353535;
+  padding: 10px 17px 10px 17px;
+  text-decoration: none;
+  border: none;
+  margin-top: 10px;
+  transition: all 0.10s ease-in-out;
+  
+}
+
+#BtnPay:hover {
+  background: #30CBE8;
+  text-decoration: none;
+  color: #353535;
+}
+
+#BtnPay:focus {outline:0;}
+
+#mailWrap {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 10px;
+  
+}
+
+#LblTotal {
+    font-size: 26px;
+}
+
+#totalWrap {
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+﻿
+
+
+body {
+}
+
+.CheckoutFrame
+{
+   
+    height:500px; 
+    width: 500px; 
+    text-align: center;
+    border: 0px solid blue;
+    margin-top: 200px;
+    
+}
+
+
+
+#CustomerFrame {
+    margin-left: 15%;
+    float: left;
+}
+
+#DetailFrame {
+    margin-right: 15%;
+    float: right;
+}

@@ -1,0 +1,115 @@
+﻿body {
+}
+
+#ProductPanel {
+    position: absolute;
+    border: 1px solid black;
+    height: 280px;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    background-color: ButtonFace;
+}
+
+#ImageFileUpload {
+    position: absolute;
+    bottom: 50px;
+    left: 600px;
+  
+}
+
+#BtnUpload {
+    position: absolute;
+    bottom: 10px;
+    left: 600px;
+}
+
+.Images {
+}
+
+.TextBoxes {
+    position: absolute;
+    left: 120px;
+    width: 200px;
+}
+
+.Labels {
+    position: absolute;
+    left: 10px;
+}
+
+#ImgUploadedFile {
+    position: absolute;
+    bottom: 10px;
+    height: 180px;
+    width: 220px;
+    left: 350px;
+}
+
+#lblImage {
+    bottom: 10px;
+}
+
+#txtImage {
+    bottom: 10px;   
+}
+
+#lblPrice {
+    bottom: 40px;  
+}
+
+#txtPrice {
+    bottom: 40px;
+}
+
+#lblStock {
+    bottom: 70px;
+}
+
+#txtStock {
+    bottom: 70px;
+}
+
+#lblDescription {
+    bottom: 100px;
+}
+
+#txtDescription {
+    bottom: 100px;
+}
+
+#lblManufactureCode {
+    bottom: 130px;
+}
+
+#txtManufactureCode {
+    bottom: 130px;
+}
+
+#lblProductID {
+    bottom: 160px;
+}
+
+#txtProductID {
+    bottom: 160px;
+}
+
+
+.navButtons {
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 80px;
+    margin-top: 30px;
+    height: 30px;
+}
+
+
+.Messages {
+    position: absolute;
+    border: solid 1px #002594;
+	font-family: Arial, Helvetica;
+    font-size: 11pt;
+    color: #002594;
+    text-align: left;
+    padding: 3px 3px 3px 3px;
+}

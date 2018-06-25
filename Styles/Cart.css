@@ -1,0 +1,150 @@
+﻿body 
+{
+	background-color: #F5F5F5;
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.TextBoxes
+{
+	
+	border: solid 1px #353535;
+    height: 20px;
+    font-size: 11pt;
+    color: #353535;
+    text-align: left;
+    width: 20px;
+}
+
+.LabelTotal
+{
+	
+    
+    
+    text-align: right;
+    float: left;
+    width: 150px;
+    height: 30px;
+    font-size: 26px;
+    float: right;
+    margin-top: 18px;
+   
+}
+
+
+
+.btn {
+
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: 'Fjalla One', sans-serif;
+  color: #F5F5F5;
+  font-size: 14px;
+  background: #353535;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.10s ease-in-out;
+}
+
+.btn:hover {
+  background: #30CBE8;
+  text-decoration: none;
+  color: #353535;
+}
+
+.btn:focus {outline:0;}
+
+.CellStyle
+{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 14pt;
+    color: #333;
+    text-align: left;
+    background-color: #F5F5F5;
+    margin: auto;
+    margin-top: 60px;
+    width: 60%;
+    
+}
+
+
+
+tr {
+    height: 100px;  
+}
+
+
+tr:nth-child(odd) {
+    background-color: #EEE;
+}
+
+td:nth-child(6) {
+    text-align: center;
+}
+
+td:nth-child(7) {
+    text-align: center;
+}
+
+/*
+tr:nth-child(1) {
+    background-color: #353535;
+    color: #F5F5F5;
+    height: 20px;
+ }
+ */
+
+#checkoutControls {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: -30px;
+
+}
+
+#btnCheckOut {
+    font-size: 26px;
+    float: left;
+}
+
+#btnRecalculate {
+    float: right;
+    margin-right: 16px;
+    font-size: 16px;
+    height: 32px;
+    padding: 6px 20px 10px 20px;
+    margin-top: 18px;
+}
+
+#LblEmpty {
+    color: #333;
+    font-size: 24px;
+    
+   
+}
+
+#returnButton {
+    margin-top: 30px;
+
+    
+}
+
+#emptyNav {
+   
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    
+}
+
+
+#cart {
+    height: 70px;
+    width: auto;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+}
